@@ -4,7 +4,7 @@ var cors = require('cors')
 var jwt = require('jsonwebtoken')
 var bcrypt = require('bcrypt')
 //var nodemailer = require('nodemailer');
-const mail = require('../utils/mail');
+//const mail = require('../utils/mail');
 
 const User = require('../models/users')
 router.use(cors())
